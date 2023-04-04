@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: darkslategray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+button {
+    background-color: chocolate;
+    border: none;
+    color: white;
+    padding: 32px 170px;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.button1 {
+    background-color: darkred;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+button:hover {opacity: 1}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
